@@ -19,8 +19,8 @@ const binSearchNumArray = (n = 61, arr = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31
         console.debug('mid', mid);
         // Return -1 in case n is not in the array
         if (!(max > min)) return -1
-        return mid
     }
+    return mid
 
 }
 console.log('Your number`s index, my liege:', binSearchNumArray());
