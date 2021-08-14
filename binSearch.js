@@ -10,7 +10,7 @@ const binSearchNumArray = (n = 61, arr = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31
             console.debug('guess too low');
             min = mid + 1
         }
-        if (arr[mid] > n) {
+        else if (arr[mid] > n) {
             console.debug('guess too high')
             max = mid - 1
         }
