@@ -1,3 +1,4 @@
+// Very basic implementation of a binary search algorithm for finding a number's index in a given array.
 const binSearchNumArray = (n = 61, arr = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]) => {
     arr = arr.sort((a, b) => a - b); // sort array in case it's not yet sorted
     console.log(arr);
