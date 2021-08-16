@@ -6,6 +6,12 @@ var insert = function(array, rightIndex, value) {
     }
     array[i + 1] = value;
 };
-var array = [1, 2, 4, 5, 6];
-insert(array, 4, 0);
+
+var insertionSort = function(array){
+    for(var i = 0; i < array.length - 1; i++){
+        insert(array, i, array[i + 1]);
+    }
+}
+var array = [10, 2, 9, 5, 6];
+insertionSort(array);
 console.log(array);
